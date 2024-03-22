@@ -1,0 +1,91 @@
+.weather {
+  margin: auto;
+  padding: 10px 0;
+  min-width: 190px;
+  max-width: 1400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weatherList {
+  display: grid;
+  gap: 4px;
+  padding: 0 30px;
+}
+
+.searchWeather {
+  padding: 0 30px;
+}
+
+.searchWeather {
+  margin: 10px auto;
+}
+
+.weatherList {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.searchWeather form,
+.searchWeather form input,
+.weatherList .weatherItem {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.weatherList .weatherItem {
+  transition: 0.2s;
+}
+
+.weatherList .weatherItem:hover {
+  cursor: pointer;
+  background-color: rgb(213, 222, 134);
+  transform: scale(1.02);
+}
+
+.searchWeather form input {
+  padding: 5px;
+}
+
+.searchWeather form {
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto;
+  padding: 50px;
+}
+
+@media (max-width: 1200px) {
+  .weatherList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .weatherList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .weatherList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .searchWeather,
+  .weatherList,
+  .searchWeather form {
+    padding: 0 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .searchWeather form {
+    padding: 50px 10px;
+  }
+
+  .searchWeather form input {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
