@@ -33,6 +33,7 @@
 
 .weatherList .weatherItem {
   transition: 0.2s;
+  box-shadow: 0px 0px 10px black;
 }
 
 .weatherList .weatherItem:hover {
