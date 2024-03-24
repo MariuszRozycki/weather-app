@@ -49,6 +49,7 @@
 
 .closeModal-btn:hover {
   background-color: rgb(213, 222, 134);
+  color: black;
 }
 
 @media (max-width: 576px) {
