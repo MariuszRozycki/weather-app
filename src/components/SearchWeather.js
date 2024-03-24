@@ -6,6 +6,7 @@ const SearchWeather = (props) => {
         <input
           type="text"
           id="searchWeather"
+          placeholder="Type searched localization"
           onChange={(e) => props.filterWeather(e.target.value)}
         />
       </form>
