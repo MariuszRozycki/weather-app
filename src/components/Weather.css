@@ -4,6 +4,7 @@
   min-width: 190px;
   max-width: 1400px;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 .weatherList {
