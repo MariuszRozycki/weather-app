@@ -8,11 +8,11 @@
 }
 .modal-content {
   position: fixed;
-  top: 5vh;
+  top: 3vh;
   left: 50%;
   width: 50vw;
   background-color: white;
-  transform: translate(-50%, 10%);
+  transform: translate(-50%, 3vh);
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.8);
   color: wheat;
@@ -27,7 +27,7 @@
 }
 
 .modal-content--data {
-  margin-top: 55px;
+  margin: 55px 0;
 }
 
 .closeModal-btn {
