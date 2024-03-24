@@ -53,7 +53,7 @@ const Weather = () => {
 
   return (
     <div className="weather">
-      <h1>Weather forecast</h1>
+      <h1>Weather forecast for Poland</h1>
       <SearchWeather filterWeather={filterWeather} />
       <div className="weatherList">
         {weatherDataAfterFilter.map((weatherItem) => {
