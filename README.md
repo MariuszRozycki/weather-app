@@ -1,4 +1,6 @@
 # Weather App
+## Live website: https://weather-app-academy.netlify.app/
+<br>
 
 <img width="785" alt="image" src="https://github.com/MariuszRozycki/weather-app/assets/55709542/a221fa2b-eb6d-4d90-97ed-acfa734b96c8">
 
