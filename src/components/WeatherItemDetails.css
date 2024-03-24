@@ -14,6 +14,8 @@
   background-color: white;
   transform: translate(-50%, 10%);
   border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: wheat;
 }
 
 .modal-content h2 {
